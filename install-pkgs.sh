@@ -53,7 +53,6 @@ install_packages() {
             xorg-drivers "<xorg-drivers>" on \
             xfce4 "<xfce4>" on \
             xfce4-goodies "<xfce4-goodies>" on \
-            "noto-fonts noto-fonts-cjk noto-fonts-emoji" "<noto-fonts>" off \
             bash-completion "bash-completion" on \
             curl "curl" on \
             lynx "lynx" off \
@@ -80,7 +79,10 @@ install_packages() {
             terminator "terminator" on \
             unzip "unzip" off \
             vim "vim" on \
-            zip "zip" off
+            zip "zip" off \
+            noto-fonts "noto-fonts" off \
+            noto-fonts-cjk "noto-fonts-cjk" off \
+            noto-fonts-emoji "noto-fonts-emoji" off
     )
     clear
 

@@ -53,6 +53,7 @@ install_packages() {
             xorg-drivers "<xorg-drivers>" on \
             xfce4 "<xfce4>" on \
             xfce4-goodies "<xfce4-goodies>" on \
+            "noto-fonts noto-fonts-cjk noto-fonts-emoji" "<noto-fonts>" off \
             bash-completion "bash-completion" on \
             curl "curl" on \
             lynx "lynx" off \
